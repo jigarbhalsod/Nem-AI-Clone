@@ -1,0 +1,33 @@
+nemai/
+├── .env.example
+├── .gitignore
+├── requirements.txt
+├── main.py
+│
+├── agents/
+│   ├── __init__.py
+│   ├── question_generator.py      # Agent 1 — Phase 2
+│   ├── answer_evaluator.py        # Agent 2 — Phase 2
+│   └── report_compiler.py         # Agent 3 — Phase 2
+│
+├── utils/
+│   ├── __init__.py
+│   ├── router.py                  # Score threshold logic — Phase 1 ✓
+│   └── openrouter_client.py       # Shared API client — Phase 2
+│
+├── cv/
+│   ├── __init__.py
+│   ├── attention_tracker.py       # Main CV loop — Phase 5
+│   ├── ear.py                     # EAR blink detection — Phase 5
+│   ├── pupil.py                   # Pupil radius tracking — Phase 5
+│   └── api.py                     # FastAPI endpoint — Phase 5
+│
+├── prompts/
+│   ├── question_generator.txt     # Agent 1 system prompt — Phase 2
+│   ├── answer_evaluator.txt       # Agent 2 system prompt — Phase 2
+│   └── report_compiler.txt        # Agent 3 system prompt — Phase 2
+│
+├── session_state.py               # Shared data model — Phase 1 ✓
+│
+└── reports/
+    └── .gitkeep
