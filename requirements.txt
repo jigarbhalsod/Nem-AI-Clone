@@ -1,0 +1,14 @@
+# LLM
+openai>=1.0.0          # OpenRouter uses the OpenAI SDK interface
+python-dotenv>=1.0.0   # Load API keys from .env
+
+# CV (Week 2 — install when ready)
+# opencv-python>=4.8.0
+# mediapipe>=0.10.0
+
+# API bridge (Week 2 — install when ready)
+# fastapi>=0.110.0
+# uvicorn>=0.29.0
+
+# Data
+pandas>=2.0.0
